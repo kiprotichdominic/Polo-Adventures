@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:www.poloadventures.co.ke)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(npm run *)",
+      "Bash(curl -s \"https://www.poloadventures.co.ke/\")",
+      "Bash(curl -s \"https://www.poloadventures.co.ke/frontend/assets/css/plugins.css\")",
+      "Bash(curl -s \"https://www.poloadventures.co.ke/storage/settings/logos/01JKRK15TEDH5JEWJ32A6AYEE8.png\" -o /Users/kiprotichdominic/projects/startups/aiprojects/poloadventures/public/images/logo.png)",
+      "Bash(node .agents/skills/impeccable/scripts/context.mjs)"
     ]
   }
 }
